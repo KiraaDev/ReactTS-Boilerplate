@@ -1,25 +1,31 @@
 import React from "react";
 import { headerLinks } from "../config/navigation";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 const Header: React.FC = () => {
+
+  const location = useLocation();
+
+  console.log(location.pathname)
+
   return (
     <header className="bg-white shadow-md">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         <div className="flex-shrink-0">
           <a
-            href="#"
-            className="text-xl font-bold text-indigo-600 hover:text-indigo-700"
+            href="/"
+            className="text-xl font-bold text-blue-600 hover:text-blue-700"
           >
             ReactTS Boilerplate
           </a>
         </div>
 
         <div className="hidden md:flex space-x-8">
-          {headerLinks.map((link) => (
+          {headerLinks.map((link, index) => (
             <Link
+            key={index}
               to={link.path}
-              className="text-gray-600 hover:text-indigo-600 font-medium transition"
+              className={`hover:text-blue-600 font-medium transition ${location.pathname == link.path ? "underline text-blue-600" : ' text-gray-600'}`}
             >
               {link.name}
             </Link>

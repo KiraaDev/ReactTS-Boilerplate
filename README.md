@@ -1,4 +1,4 @@
-# ReactTS Boiler Plate by KiraaDev
+# ReactTS Boilerplate by KiraaDev
 
 This template provides a basic setup for React using [Vite](https://vitejs.dev/). It is designed to help developers get started quickly with a fast and modern development environment.
 
@@ -8,7 +8,8 @@ This template provides a basic setup for React using [Vite](https://vitejs.dev/)
 - 🧱 React with TSX support
 - 🗂️ Organized project structure
 - 🎨 TailwindCSS ready for customization
-- 🔗 React Router
+- 🔗 React Router integrated
+- 📡 Added Axios for HTTP requests
 
 ## 🛠️ Getting Started
 
