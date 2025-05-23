@@ -15,20 +15,27 @@ This template provides a basic setup for React using [Vite](https://vitejs.dev/)
 ### 1. Clone the Repository
 ```bash
 
-git clone https://github.com/your-username/react-boilerplate-kiraadev.git
-cd react-boilerplate-kiraadev
+git clone https://github.com/KiraaDev/ReactTS-Boilerplate.git
+cd ReactTS-Boilerplate
 
+```
 ### 2. Install Dependencies
+```bash
 npm install
 # or
 yarn
+```
 
 ### 3. Run the Development Server
+```bash
 npm run dev
 # or
 yarn dev
+```
 
 ### 📁 Project Structure
+```bash
+
 ├── public/             # Static assets
 ├── src/
 │   ├── assest/         # Assets 
@@ -41,5 +48,4 @@ yarn dev
 ├── index.html          # HTML template
 ├── package.json        # Project config
 └── vite.config.ts      # Vite configuration
-
----
+```
