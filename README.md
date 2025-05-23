@@ -24,7 +24,7 @@ cd ReactTS-Boilerplate
 ```bash
 npm install
 # or
-yarn
+yarn install
 ```
 
 ### 3. Run the Development Server
