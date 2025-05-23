@@ -1,9 +1,10 @@
+import React from "react"
 
-const HomePage = () => {
+const HomePage: React.FC = () => {
   return (
-    <div>
-      home
-    </div>
+    <>
+    Home Page
+    </>
   )
 }
 
